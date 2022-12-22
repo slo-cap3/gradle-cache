@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.module",
+    "module": "jackson-module-blackbird",
+    "version": "2.14.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.14.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-module-blackbird-2.14.1.jar",
+          "url": "jackson-module-blackbird-2.14.1.jar",
+          "size": 63386,
+          "sha512": "56634022814d60e8b76220a871f29ce629f53e6172ee8b40c1d2ffb14049b1c76410a7867b13cba23f82dc6bf038620de018354e7b3a78c8625ce2a3ace4a190",
+          "sha256": "8d9ecc1608fee02f113e24da7910df1931f01ff627ba0f9bb60bb880248fe4f9",
+          "sha1": "69aa90810ab0dc953fa05979f407aa9af31a9cd",
+          "md5": "9d397e92e20a1e89c8755a21db898b1f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.14.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-module-blackbird-2.14.1.jar",
+          "url": "jackson-module-blackbird-2.14.1.jar",
+          "size": 63386,
+          "sha512": "56634022814d60e8b76220a871f29ce629f53e6172ee8b40c1d2ffb14049b1c76410a7867b13cba23f82dc6bf038620de018354e7b3a78c8625ce2a3ace4a190",
+          "sha256": "8d9ecc1608fee02f113e24da7910df1931f01ff627ba0f9bb60bb880248fe4f9",
+          "sha1": "69aa90810ab0dc953fa05979f407aa9af31a9cd",
+          "md5": "9d397e92e20a1e89c8755a21db898b1f"
+        }
+      ]
+    }
+  ]
+}

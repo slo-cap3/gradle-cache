@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.owasp",
+    "module": "dependency-check-gradle",
+    "version": "7.3.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "s6wfkmg2kfhebpxgxvqywzemai"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-core",
+          "version": {
+            "requires": "7.3.2"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-utils",
+          "version": {
+            "requires": "7.3.2"
+          }
+        },
+        {
+          "group": "net.gpedro.integrations.slack",
+          "module": "slack-webhook",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dependency-check-gradle-7.3.2.jar",
+          "url": "dependency-check-gradle-7.3.2.jar",
+          "size": 106367,
+          "sha512": "8fbcaa3ec1cca47a34e8a623abd85caa2b41bcbb4f11e7694772f809b4c840ad4de0d3b4020941be068c7c5449920296985e9ca499e02b3d9cde525f9742cfd9",
+          "sha256": "927a4984d6b1b2c01e9a000f5bc611000ef1fd36b4b8bb368806f3f8f9e00da0",
+          "sha1": "a8d0d0b40b45c9c15985e46103152663054b294b",
+          "md5": "0c4a2e17a9f9f8e0f8fd1b85679318cd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-core",
+          "version": {
+            "requires": "7.3.2"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-utils",
+          "version": {
+            "requires": "7.3.2"
+          }
+        },
+        {
+          "group": "net.gpedro.integrations.slack",
+          "module": "slack-webhook",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dependency-check-gradle-7.3.2.jar",
+          "url": "dependency-check-gradle-7.3.2.jar",
+          "size": 106367,
+          "sha512": "8fbcaa3ec1cca47a34e8a623abd85caa2b41bcbb4f11e7694772f809b4c840ad4de0d3b4020941be068c7c5449920296985e9ca499e02b3d9cde525f9742cfd9",
+          "sha256": "927a4984d6b1b2c01e9a000f5bc611000ef1fd36b4b8bb368806f3f8f9e00da0",
+          "sha1": "a8d0d0b40b45c9c15985e46103152663054b294b",
+          "md5": "0c4a2e17a9f9f8e0f8fd1b85679318cd"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dependency-check-gradle-7.3.2-javadoc.jar",
+          "url": "dependency-check-gradle-7.3.2-javadoc.jar",
+          "size": 261,
+          "sha512": "b63fcdfc0323c8492ae8553dfec484cc2b679e11c2c3801828649fab00ce9614e96316db605902683e8e31e14c254a042445a4eae93a42a4c25d622016e9c5df",
+          "sha256": "df1004c5543e8bf8a163feca6682831dc971f16486f073046c00529012040d17",
+          "sha1": "42607bba5770fc9e61c146df469edef0e51141b3",
+          "md5": "99e2dcb5e2f3662b19f2e1db2adcd08a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dependency-check-gradle-7.3.2-sources.jar",
+          "url": "dependency-check-gradle-7.3.2-sources.jar",
+          "size": 34306,
+          "sha512": "19d9ea8a043d4f089a5cf4b7be17771b51c15f5f944b97b46e4f4df64039d3c73be101ed3694effe0cf891a93539b6b5f8a81a0b7cb0dc0d6d2d8b2938a828aa",
+          "sha256": "e8e80365beea56b8bdac1d8cf629c4f2334d8baf2ee5e019171e1944116213b1",
+          "sha1": "f501dc56d548c9dda682b49df0f7d752ab221f36",
+          "md5": "f226c1bb165685ddfcc70c40176aa533"
+        }
+      ]
+    }
+  ]
+}
